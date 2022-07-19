@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-normalize-paths",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Normalize paths in frontmatter and body of markdown files to be gatsby compliant",
   "repository": "https://github.com/xuopled/gatsby-remark-normalize-paths",
   "author": "Cédric Delpoux",
@@ -17,6 +17,7 @@
   "main": "index.js",
   "dependencies": {
     "is-valid-path": "^0.1.1",
+    "normalize-path": "^3.0.0",
     "path": "^0.12.7",
     "unist-util-visit": "^2.0.3"
   },
